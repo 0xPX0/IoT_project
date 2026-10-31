@@ -1,0 +1,10 @@
+
+# Certificats et clés générés localement
+certs/ca/
+certs/out/
+certs/audit/
+
+# Fichiers locaux
+.env
+__pycache__/
+*.py[cod]

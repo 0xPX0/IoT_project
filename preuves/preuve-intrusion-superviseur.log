@@ -1,0 +1,231 @@
+superviseur-1  | 2026-10-31 11:45:20,298 INFO Mesure reçue : capteur=capteur-101 température=73.5 °C
+superviseur-1  | 2026-10-31 11:45:21,237 INFO Mesure reçue : capteur=capteur-102 température=71.8 °C
+superviseur-1  | 2026-10-31 11:45:23,298 INFO Mesure reçue : capteur=capteur-101 température=74.9 °C
+superviseur-1  | 2026-10-31 11:45:24,238 INFO Mesure reçue : capteur=capteur-102 température=66.1 °C
+superviseur-1  | 2026-10-31 11:45:26,300 INFO Mesure reçue : capteur=capteur-101 température=87.0 °C
+superviseur-1  | 2026-10-31 11:45:26,300 WARNING [ALERTE_SEUIL] capteur-101 : 87.0 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:45:27,238 INFO Mesure reçue : capteur=capteur-102 température=64.7 °C
+superviseur-1  | 2026-10-31 11:45:29,300 INFO Mesure reçue : capteur=capteur-101 température=67.6 °C
+superviseur-1  | 2026-10-31 11:45:30,239 INFO Mesure reçue : capteur=capteur-102 température=70.4 °C
+superviseur-1  | 2026-10-31 11:45:32,301 INFO Mesure reçue : capteur=capteur-101 température=65.1 °C
+superviseur-1  | 2026-10-31 11:45:33,239 INFO Mesure reçue : capteur=capteur-102 température=93.4 °C
+superviseur-1  | 2026-10-31 11:45:33,239 WARNING [ALERTE_SEUIL] capteur-102 : 93.4 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:45:35,301 INFO Mesure reçue : capteur=capteur-101 température=63.8 °C
+superviseur-1  | 2026-10-31 11:45:36,240 INFO Mesure reçue : capteur=capteur-102 température=70.1 °C
+superviseur-1  | 2026-10-31 11:45:38,302 INFO Mesure reçue : capteur=capteur-101 température=64.3 °C
+superviseur-1  | 2026-10-31 11:45:39,240 INFO Mesure reçue : capteur=capteur-102 température=72.4 °C
+superviseur-1  | 2026-10-31 11:45:41,303 INFO Mesure reçue : capteur=capteur-101 température=70.6 °C
+superviseur-1  | 2026-10-31 11:45:42,241 INFO Mesure reçue : capteur=capteur-102 température=68.2 °C
+superviseur-1  | 2026-10-31 11:45:44,303 INFO Mesure reçue : capteur=capteur-101 température=71.9 °C
+superviseur-1  | 2026-10-31 11:45:45,241 INFO Mesure reçue : capteur=capteur-102 température=72.3 °C
+superviseur-1  | 2026-10-31 11:45:47,303 INFO Mesure reçue : capteur=capteur-101 température=89.1 °C
+superviseur-1  | 2026-10-31 11:45:47,303 WARNING [ALERTE_SEUIL] capteur-101 : 89.1 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:45:48,242 INFO Mesure reçue : capteur=capteur-102 température=66.6 °C
+superviseur-1  | 2026-10-31 11:45:50,304 INFO Mesure reçue : capteur=capteur-101 température=63.1 °C
+superviseur-1  | 2026-10-31 11:45:51,243 INFO Mesure reçue : capteur=capteur-102 température=72.5 °C
+superviseur-1  | 2026-10-31 11:45:53,304 INFO Mesure reçue : capteur=capteur-101 température=71.4 °C
+superviseur-1  | 2026-10-31 11:45:54,243 INFO Mesure reçue : capteur=capteur-102 température=86.0 °C
+superviseur-1  | 2026-10-31 11:45:54,243 WARNING [ALERTE_SEUIL] capteur-102 : 86.0 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:45:56,305 INFO Mesure reçue : capteur=capteur-101 température=68.2 °C
+superviseur-1  | 2026-10-31 11:45:57,244 INFO Mesure reçue : capteur=capteur-102 température=60.3 °C
+superviseur-1  | 2026-10-31 11:45:59,306 INFO Mesure reçue : capteur=capteur-101 température=68.7 °C
+superviseur-1  | 2026-10-31 11:46:00,244 INFO Mesure reçue : capteur=capteur-102 température=65.3 °C
+superviseur-1  | 2026-10-31 11:46:02,306 INFO Mesure reçue : capteur=capteur-101 température=72.3 °C
+superviseur-1  | 2026-10-31 11:46:03,245 INFO Mesure reçue : capteur=capteur-102 température=65.8 °C
+superviseur-1  | 2026-10-31 11:46:05,307 INFO Mesure reçue : capteur=capteur-101 température=60.6 °C
+superviseur-1  | 2026-10-31 11:46:06,246 INFO Mesure reçue : capteur=capteur-102 température=61.1 °C
+superviseur-1  | 2026-10-31 11:46:08,308 INFO Mesure reçue : capteur=capteur-101 température=88.1 °C
+superviseur-1  | 2026-10-31 11:46:08,308 WARNING [ALERTE_SEUIL] capteur-101 : 88.1 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:46:09,247 INFO Mesure reçue : capteur=capteur-102 température=73.1 °C
+superviseur-1  | 2026-10-31 11:46:11,309 INFO Mesure reçue : capteur=capteur-101 température=74.8 °C
+superviseur-1  | 2026-10-31 11:46:12,247 INFO Mesure reçue : capteur=capteur-102 température=68.0 °C
+superviseur-1  | 2026-10-31 11:46:14,310 INFO Mesure reçue : capteur=capteur-101 température=66.7 °C
+superviseur-1  | 2026-10-31 11:46:15,248 INFO Mesure reçue : capteur=capteur-102 température=89.0 °C
+superviseur-1  | 2026-10-31 11:46:15,248 WARNING [ALERTE_SEUIL] capteur-102 : 89.0 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:46:17,311 INFO Mesure reçue : capteur=capteur-101 température=63.9 °C
+superviseur-1  | 2026-10-31 11:46:18,249 INFO Mesure reçue : capteur=capteur-102 température=67.3 °C
+superviseur-1  | 2026-10-31 11:46:20,311 INFO Mesure reçue : capteur=capteur-101 température=67.5 °C
+superviseur-1  | 2026-10-31 11:46:21,250 INFO Mesure reçue : capteur=capteur-102 température=67.4 °C
+superviseur-1  | 2026-10-31 11:46:23,311 INFO Mesure reçue : capteur=capteur-101 température=73.3 °C
+superviseur-1  | 2026-10-31 11:46:24,251 INFO Mesure reçue : capteur=capteur-102 température=69.4 °C
+superviseur-1  | 2026-10-31 11:46:26,313 INFO Mesure reçue : capteur=capteur-101 température=68.8 °C
+superviseur-1  | 2026-10-31 11:46:27,251 INFO Mesure reçue : capteur=capteur-102 température=66.9 °C
+superviseur-1  | 2026-10-31 11:46:29,313 INFO Mesure reçue : capteur=capteur-101 température=91.1 °C
+superviseur-1  | 2026-10-31 11:46:29,313 WARNING [ALERTE_SEUIL] capteur-101 : 91.1 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:46:30,251 INFO Mesure reçue : capteur=capteur-102 température=60.6 °C
+superviseur-1  | 2026-10-31 11:46:32,314 INFO Mesure reçue : capteur=capteur-101 température=64.0 °C
+superviseur-1  | 2026-10-31 11:46:33,253 INFO Mesure reçue : capteur=capteur-102 température=74.0 °C
+superviseur-1  | 2026-10-31 11:46:35,314 INFO Mesure reçue : capteur=capteur-101 température=71.4 °C
+superviseur-1  | 2026-10-31 11:46:36,255 INFO Mesure reçue : capteur=capteur-102 température=91.3 °C
+superviseur-1  | 2026-10-31 11:46:36,255 WARNING [ALERTE_SEUIL] capteur-102 : 91.3 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:46:38,315 INFO Mesure reçue : capteur=capteur-101 température=65.4 °C
+superviseur-1  | 2026-10-31 11:46:39,255 INFO Mesure reçue : capteur=capteur-102 température=72.0 °C
+superviseur-1  | 2026-10-31 11:46:41,315 INFO Mesure reçue : capteur=capteur-101 température=68.6 °C
+superviseur-1  | 2026-10-31 11:46:42,255 INFO Mesure reçue : capteur=capteur-102 température=70.3 °C
+superviseur-1  | 2026-10-31 11:46:44,316 INFO Mesure reçue : capteur=capteur-101 température=73.2 °C
+superviseur-1  | 2026-10-31 11:46:45,256 INFO Mesure reçue : capteur=capteur-102 température=60.9 °C
+superviseur-1  | 2026-10-31 11:46:47,316 INFO Mesure reçue : capteur=capteur-101 température=61.1 °C
+superviseur-1  | 2026-10-31 11:46:48,256 INFO Mesure reçue : capteur=capteur-102 température=62.7 °C
+superviseur-1  | 2026-10-31 11:46:50,317 INFO Mesure reçue : capteur=capteur-101 température=93.8 °C
+superviseur-1  | 2026-10-31 11:46:50,317 WARNING [ALERTE_SEUIL] capteur-101 : 93.8 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:46:51,256 INFO Mesure reçue : capteur=capteur-102 température=70.4 °C
+superviseur-1  | 2026-10-31 11:46:53,317 INFO Mesure reçue : capteur=capteur-101 température=67.9 °C
+superviseur-1  | 2026-10-31 11:46:54,257 INFO Mesure reçue : capteur=capteur-102 température=64.1 °C
+superviseur-1  | 2026-10-31 11:46:56,319 INFO Mesure reçue : capteur=capteur-101 température=67.6 °C
+superviseur-1  | 2026-10-31 11:46:57,258 INFO Mesure reçue : capteur=capteur-102 température=86.9 °C
+superviseur-1  | 2026-10-31 11:46:57,258 WARNING [ALERTE_SEUIL] capteur-102 : 86.9 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:46:59,319 INFO Mesure reçue : capteur=capteur-101 température=60.7 °C
+superviseur-1  | 2026-10-31 11:47:00,258 INFO Mesure reçue : capteur=capteur-102 température=60.4 °C
+superviseur-1  | 2026-10-31 11:47:02,319 INFO Mesure reçue : capteur=capteur-101 température=63.9 °C
+superviseur-1  | 2026-10-31 11:47:03,259 INFO Mesure reçue : capteur=capteur-102 température=68.0 °C
+superviseur-1  | 2026-10-31 11:47:05,321 INFO Mesure reçue : capteur=capteur-101 température=67.8 °C
+superviseur-1  | 2026-10-31 11:47:06,259 INFO Mesure reçue : capteur=capteur-102 température=71.0 °C
+superviseur-1  | 2026-10-31 11:47:08,322 INFO Mesure reçue : capteur=capteur-101 température=64.4 °C
+superviseur-1  | 2026-10-31 11:47:09,260 INFO Mesure reçue : capteur=capteur-102 température=63.1 °C
+superviseur-1  | 2026-10-31 11:47:11,322 INFO Mesure reçue : capteur=capteur-101 température=93.6 °C
+superviseur-1  | 2026-10-31 11:47:11,322 WARNING [ALERTE_SEUIL] capteur-101 : 93.6 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:47:12,261 INFO Mesure reçue : capteur=capteur-102 température=64.7 °C
+superviseur-1  | 2026-10-31 11:47:14,322 INFO Mesure reçue : capteur=capteur-101 température=64.3 °C
+superviseur-1  | 2026-10-31 11:47:15,261 INFO Mesure reçue : capteur=capteur-102 température=64.3 °C
+superviseur-1  | 2026-10-31 11:47:17,322 INFO Mesure reçue : capteur=capteur-101 température=62.3 °C
+superviseur-1  | 2026-10-31 11:47:18,262 INFO Mesure reçue : capteur=capteur-102 température=92.9 °C
+superviseur-1  | 2026-10-31 11:47:18,262 WARNING [ALERTE_SEUIL] capteur-102 : 92.9 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:47:20,323 INFO Mesure reçue : capteur=capteur-101 température=63.4 °C
+superviseur-1  | 2026-10-31 11:47:21,262 INFO Mesure reçue : capteur=capteur-102 température=74.5 °C
+superviseur-1  | 2026-10-31 11:47:23,323 INFO Mesure reçue : capteur=capteur-101 température=67.4 °C
+superviseur-1  | 2026-10-31 11:47:24,262 INFO Mesure reçue : capteur=capteur-102 température=74.8 °C
+superviseur-1  | 2026-10-31 11:47:26,324 INFO Mesure reçue : capteur=capteur-101 température=74.8 °C
+superviseur-1  | 2026-10-31 11:47:27,263 INFO Mesure reçue : capteur=capteur-102 température=67.5 °C
+superviseur-1  | 2026-10-31 11:47:29,324 INFO Mesure reçue : capteur=capteur-101 température=63.6 °C
+superviseur-1  | 2026-10-31 11:47:30,263 INFO Mesure reçue : capteur=capteur-102 température=70.3 °C
+superviseur-1  | 2026-10-31 11:47:32,325 INFO Mesure reçue : capteur=capteur-101 température=92.1 °C
+superviseur-1  | 2026-10-31 11:47:32,325 WARNING [ALERTE_SEUIL] capteur-101 : 92.1 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:47:33,264 INFO Mesure reçue : capteur=capteur-102 température=60.5 °C
+superviseur-1  | 2026-10-31 11:47:35,326 INFO Mesure reçue : capteur=capteur-101 température=71.2 °C
+superviseur-1  | 2026-10-31 11:47:36,264 INFO Mesure reçue : capteur=capteur-102 température=70.0 °C
+superviseur-1  | 2026-10-31 11:47:38,326 INFO Mesure reçue : capteur=capteur-101 température=66.4 °C
+superviseur-1  | 2026-10-31 11:47:39,266 INFO Mesure reçue : capteur=capteur-102 température=92.6 °C
+superviseur-1  | 2026-10-31 11:47:39,266 WARNING [ALERTE_SEUIL] capteur-102 : 92.6 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:47:41,326 INFO Mesure reçue : capteur=capteur-101 température=68.5 °C
+superviseur-1  | 2026-10-31 11:47:42,267 INFO Mesure reçue : capteur=capteur-102 température=68.2 °C
+superviseur-1  | 2026-10-31 11:47:44,328 INFO Mesure reçue : capteur=capteur-101 température=75.0 °C
+superviseur-1  | 2026-10-31 11:47:45,267 INFO Mesure reçue : capteur=capteur-102 température=61.3 °C
+superviseur-1  | 2026-10-31 11:47:47,328 INFO Mesure reçue : capteur=capteur-101 température=64.6 °C
+superviseur-1  | 2026-10-31 11:47:48,268 INFO Mesure reçue : capteur=capteur-102 température=71.1 °C
+superviseur-1  | 2026-10-31 11:47:50,329 INFO Mesure reçue : capteur=capteur-101 température=62.5 °C
+superviseur-1  | 2026-10-31 11:47:51,269 INFO Mesure reçue : capteur=capteur-102 température=69.6 °C
+superviseur-1  | 2026-10-31 11:47:53,329 INFO Mesure reçue : capteur=capteur-101 température=89.3 °C
+superviseur-1  | 2026-10-31 11:47:53,329 WARNING [ALERTE_SEUIL] capteur-101 : 89.3 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:47:54,269 INFO Mesure reçue : capteur=capteur-102 température=69.1 °C
+superviseur-1  | 2026-10-31 11:47:56,331 INFO Mesure reçue : capteur=capteur-101 température=71.9 °C
+superviseur-1  | 2026-10-31 11:47:57,270 INFO Mesure reçue : capteur=capteur-102 température=71.4 °C
+superviseur-1  | 2026-10-31 11:47:59,332 INFO Mesure reçue : capteur=capteur-101 température=73.7 °C
+superviseur-1  | 2026-10-31 11:48:00,271 INFO Mesure reçue : capteur=capteur-102 température=91.8 °C
+superviseur-1  | 2026-10-31 11:48:00,271 WARNING [ALERTE_SEUIL] capteur-102 : 91.8 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:48:02,333 INFO Mesure reçue : capteur=capteur-101 température=65.1 °C
+superviseur-1  | 2026-10-31 11:48:03,271 INFO Mesure reçue : capteur=capteur-102 température=74.5 °C
+superviseur-1  | 2026-10-31 11:48:05,333 INFO Mesure reçue : capteur=capteur-101 température=65.0 °C
+superviseur-1  | 2026-10-31 11:48:06,273 INFO Mesure reçue : capteur=capteur-102 température=73.8 °C
+superviseur-1  | 2026-10-31 11:48:08,334 INFO Mesure reçue : capteur=capteur-101 température=69.1 °C
+superviseur-1  | 2026-10-31 11:48:09,274 INFO Mesure reçue : capteur=capteur-102 température=74.9 °C
+superviseur-1  | 2026-10-31 11:48:11,334 INFO Mesure reçue : capteur=capteur-101 température=64.0 °C
+superviseur-1  | 2026-10-31 11:48:12,274 INFO Mesure reçue : capteur=capteur-102 température=68.1 °C
+superviseur-1  | 2026-10-31 11:48:14,336 INFO Mesure reçue : capteur=capteur-101 température=87.9 °C
+superviseur-1  | 2026-10-31 11:48:14,336 WARNING [ALERTE_SEUIL] capteur-101 : 87.9 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:48:15,274 INFO Mesure reçue : capteur=capteur-102 température=66.0 °C
+superviseur-1  | 2026-10-31 11:48:17,336 INFO Mesure reçue : capteur=capteur-101 température=69.9 °C
+superviseur-1  | 2026-10-31 11:48:18,275 INFO Mesure reçue : capteur=capteur-102 température=61.5 °C
+superviseur-1  | 2026-10-31 11:48:20,336 INFO Mesure reçue : capteur=capteur-101 température=70.6 °C
+superviseur-1  | 2026-10-31 11:48:21,276 INFO Mesure reçue : capteur=capteur-102 température=93.4 °C
+superviseur-1  | 2026-10-31 11:48:21,276 WARNING [ALERTE_SEUIL] capteur-102 : 93.4 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:48:23,337 INFO Mesure reçue : capteur=capteur-101 température=74.3 °C
+superviseur-1  | 2026-10-31 11:48:24,277 INFO Mesure reçue : capteur=capteur-102 température=74.7 °C
+superviseur-1  | 2026-10-31 11:48:26,338 INFO Mesure reçue : capteur=capteur-101 température=74.9 °C
+superviseur-1  | 2026-10-31 11:48:27,277 INFO Mesure reçue : capteur=capteur-102 température=71.2 °C
+superviseur-1  | 2026-10-31 11:48:29,338 INFO Mesure reçue : capteur=capteur-101 température=67.0 °C
+superviseur-1  | 2026-10-31 11:48:30,279 INFO Mesure reçue : capteur=capteur-102 température=71.1 °C
+superviseur-1  | 2026-10-31 11:48:32,340 INFO Mesure reçue : capteur=capteur-101 température=67.9 °C
+superviseur-1  | 2026-10-31 11:48:33,279 INFO Mesure reçue : capteur=capteur-102 température=71.7 °C
+superviseur-1  | 2026-10-31 11:48:35,341 INFO Mesure reçue : capteur=capteur-101 température=89.3 °C
+superviseur-1  | 2026-10-31 11:48:35,341 WARNING [ALERTE_SEUIL] capteur-101 : 89.3 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:48:36,281 INFO Mesure reçue : capteur=capteur-102 température=73.5 °C
+superviseur-1  | 2026-10-31 11:48:38,340 INFO Mesure reçue : capteur=capteur-101 température=68.4 °C
+superviseur-1  | 2026-10-31 11:48:39,281 INFO Mesure reçue : capteur=capteur-102 température=73.5 °C
+superviseur-1  | 2026-10-31 11:48:41,341 INFO Mesure reçue : capteur=capteur-101 température=69.3 °C
+superviseur-1  | 2026-10-31 11:48:42,282 INFO Mesure reçue : capteur=capteur-102 température=93.6 °C
+superviseur-1  | 2026-10-31 11:48:42,282 WARNING [ALERTE_SEUIL] capteur-102 : 93.6 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:48:44,342 INFO Mesure reçue : capteur=capteur-101 température=69.5 °C
+superviseur-1  | 2026-10-31 11:48:45,282 INFO Mesure reçue : capteur=capteur-102 température=65.8 °C
+superviseur-1  | 2026-10-31 11:48:47,342 INFO Mesure reçue : capteur=capteur-101 température=63.1 °C
+superviseur-1  | 2026-10-31 11:48:48,282 INFO Mesure reçue : capteur=capteur-102 température=61.4 °C
+superviseur-1  | 2026-10-31 11:48:50,342 INFO Mesure reçue : capteur=capteur-101 température=60.9 °C
+superviseur-1  | 2026-10-31 11:48:51,284 INFO Mesure reçue : capteur=capteur-102 température=65.3 °C
+superviseur-1  | 2026-10-31 11:48:53,343 INFO Mesure reçue : capteur=capteur-101 température=70.4 °C
+superviseur-1  | 2026-10-31 11:48:54,285 INFO Mesure reçue : capteur=capteur-102 température=71.4 °C
+superviseur-1  | 2026-10-31 11:48:56,343 INFO Mesure reçue : capteur=capteur-101 température=90.2 °C
+superviseur-1  | 2026-10-31 11:48:56,343 WARNING [ALERTE_SEUIL] capteur-101 : 90.2 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:48:57,286 INFO Mesure reçue : capteur=capteur-102 température=72.4 °C
+superviseur-1  | 2026-10-31 11:48:59,344 INFO Mesure reçue : capteur=capteur-101 température=72.0 °C
+superviseur-1  | 2026-10-31 11:49:00,286 INFO Mesure reçue : capteur=capteur-102 température=66.1 °C
+superviseur-1  | 2026-10-31 11:49:02,345 INFO Mesure reçue : capteur=capteur-101 température=74.7 °C
+superviseur-1  | 2026-10-31 11:49:03,288 INFO Mesure reçue : capteur=capteur-102 température=89.7 °C
+superviseur-1  | 2026-10-31 11:49:03,288 WARNING [ALERTE_SEUIL] capteur-102 : 89.7 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:49:05,346 INFO Mesure reçue : capteur=capteur-101 température=63.5 °C
+superviseur-1  | 2026-10-31 11:49:06,289 INFO Mesure reçue : capteur=capteur-102 température=69.7 °C
+superviseur-1  | 2026-10-31 11:49:08,346 INFO Mesure reçue : capteur=capteur-101 température=73.8 °C
+superviseur-1  | 2026-10-31 11:49:09,289 INFO Mesure reçue : capteur=capteur-102 température=73.4 °C
+superviseur-1  | 2026-10-31 11:49:11,347 INFO Mesure reçue : capteur=capteur-101 température=73.2 °C
+superviseur-1  | 2026-10-31 11:49:12,290 INFO Mesure reçue : capteur=capteur-102 température=73.9 °C
+superviseur-1  | 2026-10-31 11:49:14,348 INFO Mesure reçue : capteur=capteur-101 température=71.9 °C
+superviseur-1  | 2026-10-31 11:49:15,290 INFO Mesure reçue : capteur=capteur-102 température=61.1 °C
+superviseur-1  | 2026-10-31 11:49:17,348 INFO Mesure reçue : capteur=capteur-101 température=88.6 °C
+superviseur-1  | 2026-10-31 11:49:17,348 WARNING [ALERTE_SEUIL] capteur-101 : 88.6 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:49:18,290 INFO Mesure reçue : capteur=capteur-102 température=64.8 °C
+superviseur-1  | 2026-10-31 11:49:19,640 WARNING [ALERTE_INTRUSION] Objet déclaré inconnu : 'capteur-intrus-99' topic=industrie/audit/intrus-99/temperature
+superviseur-1  | 2026-10-31 11:49:20,349 INFO Mesure reçue : capteur=capteur-101 température=71.1 °C
+superviseur-1  | 2026-10-31 11:49:21,291 INFO Mesure reçue : capteur=capteur-102 température=74.5 °C
+superviseur-1  | 2026-10-31 11:49:22,641 WARNING [ALERTE_INTRUSION] Objet déclaré inconnu : 'capteur-intrus-99' topic=industrie/audit/intrus-99/temperature
+superviseur-1  | 2026-10-31 11:49:23,350 INFO Mesure reçue : capteur=capteur-101 température=71.7 °C
+superviseur-1  | 2026-10-31 11:49:24,292 INFO Mesure reçue : capteur=capteur-102 température=91.2 °C
+superviseur-1  | 2026-10-31 11:49:24,292 WARNING [ALERTE_SEUIL] capteur-102 : 91.2 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:49:25,642 WARNING [ALERTE_INTRUSION] Objet déclaré inconnu : 'capteur-intrus-99' topic=industrie/audit/intrus-99/temperature
+superviseur-1  | 2026-10-31 11:49:26,350 INFO Mesure reçue : capteur=capteur-101 température=63.0 °C
+superviseur-1  | 2026-10-31 11:49:27,293 INFO Mesure reçue : capteur=capteur-102 température=62.3 °C
+superviseur-1  | 2026-10-31 11:49:29,351 INFO Mesure reçue : capteur=capteur-101 température=64.9 °C
+superviseur-1  | 2026-10-31 11:49:30,293 INFO Mesure reçue : capteur=capteur-102 température=68.4 °C
+superviseur-1  | 2026-10-31 11:49:32,352 INFO Mesure reçue : capteur=capteur-101 température=65.7 °C
+superviseur-1  | 2026-10-31 11:49:33,293 INFO Mesure reçue : capteur=capteur-102 température=63.3 °C
+superviseur-1  | 2026-10-31 11:49:35,353 INFO Mesure reçue : capteur=capteur-101 température=63.7 °C
+superviseur-1  | 2026-10-31 11:49:36,295 INFO Mesure reçue : capteur=capteur-102 température=68.2 °C
+superviseur-1  | 2026-10-31 11:49:38,354 INFO Mesure reçue : capteur=capteur-101 température=86.3 °C
+superviseur-1  | 2026-10-31 11:49:38,355 WARNING [ALERTE_SEUIL] capteur-101 : 86.3 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:49:39,297 INFO Mesure reçue : capteur=capteur-102 température=65.5 °C
+superviseur-1  | 2026-10-31 11:49:41,355 INFO Mesure reçue : capteur=capteur-101 température=70.3 °C
+superviseur-1  | 2026-10-31 11:49:42,297 INFO Mesure reçue : capteur=capteur-102 température=63.7 °C
+superviseur-1  | 2026-10-31 11:49:44,355 INFO Mesure reçue : capteur=capteur-101 température=62.9 °C
+superviseur-1  | 2026-10-31 11:49:45,299 INFO Mesure reçue : capteur=capteur-102 température=90.3 °C
+superviseur-1  | 2026-10-31 11:49:45,299 WARNING [ALERTE_SEUIL] capteur-102 : 90.3 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:49:47,357 INFO Mesure reçue : capteur=capteur-101 température=64.1 °C
+superviseur-1  | 2026-10-31 11:49:48,299 INFO Mesure reçue : capteur=capteur-102 température=62.0 °C
+superviseur-1  | 2026-10-31 11:49:50,357 INFO Mesure reçue : capteur=capteur-101 température=72.5 °C
+superviseur-1  | 2026-10-31 11:49:51,301 INFO Mesure reçue : capteur=capteur-102 température=64.1 °C
+superviseur-1  | 2026-10-31 11:49:53,358 INFO Mesure reçue : capteur=capteur-101 température=74.4 °C
+superviseur-1  | 2026-10-31 11:49:54,300 INFO Mesure reçue : capteur=capteur-102 température=68.9 °C
+superviseur-1  | 2026-10-31 11:49:56,359 INFO Mesure reçue : capteur=capteur-101 température=70.1 °C
+superviseur-1  | 2026-10-31 11:49:57,302 INFO Mesure reçue : capteur=capteur-102 température=69.7 °C
+superviseur-1  | 2026-10-31 11:49:59,359 INFO Mesure reçue : capteur=capteur-101 température=91.5 °C
+superviseur-1  | 2026-10-31 11:49:59,360 WARNING [ALERTE_SEUIL] capteur-101 : 91.5 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:50:00,303 INFO Mesure reçue : capteur=capteur-102 température=70.2 °C
+superviseur-1  | 2026-10-31 11:50:02,361 INFO Mesure reçue : capteur=capteur-101 température=60.3 °C
+superviseur-1  | 2026-10-31 11:50:03,303 INFO Mesure reçue : capteur=capteur-102 température=68.0 °C
+superviseur-1  | 2026-10-31 11:50:05,361 INFO Mesure reçue : capteur=capteur-101 température=70.8 °C
+superviseur-1  | 2026-10-31 11:50:06,304 INFO Mesure reçue : capteur=capteur-102 température=89.7 °C
+superviseur-1  | 2026-10-31 11:50:06,304 WARNING [ALERTE_SEUIL] capteur-102 : 89.7 °C, seuil 85.0 °C
+superviseur-1  | 2026-10-31 11:50:08,361 INFO Mesure reçue : capteur=capteur-101 température=63.0 °C
+superviseur-1  | 2026-10-31 11:50:09,303 INFO Mesure reçue : capteur=capteur-102 température=66.9 °C
+superviseur-1  | 2026-10-31 11:50:11,363 INFO Mesure reçue : capteur=capteur-101 température=61.8 °C
+superviseur-1  | 2026-10-31 11:50:12,305 INFO Mesure reçue : capteur=capteur-102 température=61.4 °C
+superviseur-1  | 2026-10-31 11:50:14,363 INFO Mesure reçue : capteur=capteur-101 température=61.2 °C
+superviseur-1  | 2026-10-31 11:50:15,305 INFO Mesure reçue : capteur=capteur-102 température=68.1 °C
+superviseur-1  | 2026-10-31 11:50:17,364 INFO Mesure reçue : capteur=capteur-101 température=61.3 °C
+superviseur-1  | 2026-10-31 11:50:18,307 INFO Mesure reçue : capteur=capteur-102 température=62.8 °C

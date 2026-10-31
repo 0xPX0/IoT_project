@@ -1,0 +1,9 @@
+ Container iot_project-capteur-101-run-3432cf862f16 Creating 
+ Container iot_project-capteur-101-run-3432cf862f16 Created 
+2026-10-31 11:46:30,295 INFO Connexion MQTT établie
+2026-10-31 11:46:30,295 INFO Mesure envoyée : capteur=audit-acl-101 température=65.4 topic=industrie/etage-1/salle-02/temperature
+2026-10-31 11:46:30,296 ERROR Publication refusée : mid=1 code=135 raison=Not authorized
+2026-10-31 11:46:33,296 INFO Mesure envoyée : capteur=audit-acl-101 température=74.8 topic=industrie/etage-1/salle-02/temperature
+2026-10-31 11:46:33,297 ERROR Publication refusée : mid=2 code=135 raison=Not authorized
+2026-10-31 11:46:36,297 INFO Mesure envoyée : capteur=audit-acl-101 température=70.0 topic=industrie/etage-1/salle-02/temperature
+2026-10-31 11:46:36,298 ERROR Publication refusée : mid=3 code=135 raison=Not authorized

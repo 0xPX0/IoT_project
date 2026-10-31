@@ -1,0 +1,5 @@
+ Container iot_project-capteur-101-run-2f8e95d88246 Creating 
+ Container iot_project-capteur-101-run-2f8e95d88246 Created 
+TEST : connexion à broker:8883 sans certificat client
+Connexion TLS refusée : [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1011)
+Vérifier dans les logs du broker que le certificat client manque.

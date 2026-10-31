@@ -1,0 +1,160 @@
+services:
+  broker:
+    image: docker.io/eclipse-mosquitto:2.0.18
+    user: "10003:10003"
+    restart: unless-stopped
+
+    read_only: true
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+
+    volumes:
+      - ./mosquitto/mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
+      - ./mosquitto/acl:/mosquitto/config/acl:ro
+
+      - ./certs/out/ca.crt:/mosquitto/certs/ca.crt:ro
+      - ./certs/out/broker.crt:/mosquitto/certs/broker.crt:ro
+      - ./certs/out/broker.key:/mosquitto/certs/broker.key:ro
+
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+    networks:
+      - ot_net
+      - broker_net
+
+  capteur-101:
+    build:
+      context: ./capteur
+    image: iiot-capteur:local
+    user: "10001:10001"
+    restart: unless-stopped
+
+    environment:
+      MQTT_HOST: broker
+      MQTT_PORT: "8883"
+
+      CAPTEUR_ID: capteur-101
+      TOPIC: industrie/etage-1/salle-01/temperature
+
+      CA_CERT: /app/certs/ca.crt
+      CLIENT_CERT: /app/certs/client.crt
+      CLIENT_KEY: /app/certs/client.key
+
+    read_only: true
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+
+    volumes:
+      - ./certs/out/ca.crt:/app/certs/ca.crt:ro
+      - ./certs/out/capteur-101.crt:/app/certs/client.crt:ro
+      - ./certs/out/capteur-101.key:/app/certs/client.key:ro
+
+    depends_on:
+      - broker
+
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+    networks:
+      - ot_net
+
+  capteur-102:
+    image: iiot-capteur:local
+    user: "10001:10001"
+    restart: unless-stopped
+
+    environment:
+      MQTT_HOST: broker
+      MQTT_PORT: "8883"
+
+      CAPTEUR_ID: capteur-102
+      TOPIC: industrie/etage-1/salle-02/temperature
+
+      CA_CERT: /app/certs/ca.crt
+      CLIENT_CERT: /app/certs/client.crt
+      CLIENT_KEY: /app/certs/client.key
+
+    read_only: true
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+
+    volumes:
+      - ./certs/out/ca.crt:/app/certs/ca.crt:ro
+      - ./certs/out/capteur-102.crt:/app/certs/client.crt:ro
+      - ./certs/out/capteur-102.key:/app/certs/client.key:ro
+
+    depends_on:
+      - broker
+
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+    networks:
+      - ot_net
+
+  superviseur:
+    build:
+      context: ./supervision
+    image: iiot-superviseur:local
+    user: "10002:10002"
+    restart: unless-stopped
+
+    environment:
+      MQTT_HOST: broker
+      MQTT_PORT: "8883"
+
+      CA_CERT: /app/certs/ca.crt
+      CLIENT_CERT: /app/certs/client.crt
+      CLIENT_KEY: /app/certs/client.key
+
+      ALLOWED_CAPTEURS: "capteur-101,capteur-102"
+      TEMPERATURE_THRESHOLD: "85"
+      ABSENCE_TIMEOUT: "15"
+
+    read_only: true
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+
+    volumes:
+      - ./certs/out/ca.crt:/app/certs/ca.crt:ro
+      - ./certs/out/superviseur.crt:/app/certs/client.crt:ro
+      - ./certs/out/superviseur.key:/app/certs/client.key:ro
+
+    depends_on:
+      - broker
+
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+    networks:
+      - broker_net
+
+networks:
+  ot_net:
+    driver: bridge
+    internal: true
+
+  broker_net:
+    driver: bridge
+    internal: true

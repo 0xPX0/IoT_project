@@ -1,0 +1,3 @@
+broker-1  | 1793447111: New connection from 172.21.0.5:53956 on port 8883.
+broker-1  | 1793447111: OpenSSL Error[0]: error:140360C7:SSL routines:ACCEPT_SR_CERT:peer did not return a certificate
+broker-1  | 1793447111: Client <unknown> disconnected: Protocol error.

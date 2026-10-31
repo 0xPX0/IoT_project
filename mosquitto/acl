@@ -1,0 +1,11 @@
+# Lecture de la télémétrie uniquement
+user superviseur
+topic read industrie/#
+
+# Premier étage, équipement 01
+user capteur-101
+topic write industrie/etage-1/salle-01/temperature
+
+# Premier étage, équipement 02
+user capteur-102
+topic write industrie/etage-1/salle-02/temperature

@@ -1,0 +1,9 @@
+ Container iot_project-capteur-101-run-54771b9c8b85 Creating 
+ Container iot_project-capteur-101-run-54771b9c8b85 Created 
+2026-10-31 11:49:19,640 INFO Connexion MQTT établie
+2026-10-31 11:49:19,640 INFO Mesure envoyée : capteur=capteur-intrus-99 température=67.4 topic=industrie/audit/intrus-99/temperature
+2026-10-31 11:49:19,640 INFO Publication confirmée : mid=1 code=0
+2026-10-31 11:49:22,641 INFO Mesure envoyée : capteur=capteur-intrus-99 température=60.3 topic=industrie/audit/intrus-99/temperature
+2026-10-31 11:49:22,641 INFO Publication confirmée : mid=2 code=0
+2026-10-31 11:49:25,641 INFO Mesure envoyée : capteur=capteur-intrus-99 température=74.7 topic=industrie/audit/intrus-99/temperature
+2026-10-31 11:49:25,642 INFO Publication confirmée : mid=3 code=0
